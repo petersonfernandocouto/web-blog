@@ -99,7 +99,12 @@ export default function Home() {
         <HomePage />
       </div>
 
-      <Category />    
+      <div className='mt-7'>
+        
+        <Category /> 
+        
+      </div>    
+         
 
     </>
   );
