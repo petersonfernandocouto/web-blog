@@ -25,7 +25,7 @@ const HomePage = () => {
         );
         setIsFading(false); // Reseta para fade-in
       }, 500); // Tempo de fade-out
-    }, 7000); // Troca a cada 7000ms (7 segundos)
+    }, 5000); // Troca a cada 7000ms (7 segundos)
 
     // Limpa o intervalo quando o componente é desmontado
     return () => clearInterval(interval);
