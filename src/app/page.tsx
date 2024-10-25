@@ -3,6 +3,7 @@
 
 import HomePage from "../../Componentes/HomePage";
 import Category from "../../Componentes/Category";
+import Gameplays from "../../Componentes/Gameplays";
 
 import { MenuIcon } from "lucide-react";
 import { useState } from "react";
@@ -105,6 +106,11 @@ export default function Home() {
         
       </div>    
          
+      <div >
+
+         <Gameplays />
+
+      </div>   
 
     </>
   );

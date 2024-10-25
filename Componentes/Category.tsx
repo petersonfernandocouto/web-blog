@@ -10,23 +10,24 @@ const Category = () => {
   return (
     <div>
 
-      <h1 className="text-center" style={{ fontSize: '34px' }}>Categorias</h1>
+      <h1 className="text-center text-3xl font-bold">Categorias</h1>
 
       {/* Adiciona flexbox e centraliza o conteúdo com espaçamento inline */}
       <div 
-        className="flex flex-col lg:flex-row justify-center items-center mt-7" 
-        style={{ gap: '15px' }}  // Adiciona espaçamento entre as divs
+        className="flex flex-col lg:flex-row justify-center items-center mt-7 gap-4" 
+        
       >
 
-        <div className='flex' style={{ gap: '15px'}}>
+        <div className='flex lg:gap-4 gap-2' >
             {/* Primeiro card */}
             <a href="#">
-              <h1 className='text-2xl text-center text-[#F75922] font-bold'>Mario</h1> 
+              <h1 className='text-2xl text-center text-[#F75922] font-bold '>Mario</h1> 
               <br />
               <Image 
                 src={Mario} 
                 alt='Mario'
-                style={{ width: 'auto', height: '360px', maxHeight: '500px', border: '5px solid #F75922', borderRadius: '40px' }}
+                style={{ width: 'auto', height: '320px', maxHeight: '500px', }}
+                className='lg:hover:-translate-y-2 transition-transform duration-700 border-4 border-[#F75922] rounded-[40px] lg:hover:border-[#b927cc] '
               />
             </a>
 
@@ -37,20 +38,22 @@ const Category = () => {
               <Image 
                 src={Consoles} 
                 alt='Consoles'
-                style={{ width: 'auto', height: '360px', maxHeight: '500px', border: '5px solid #F75922', borderRadius: '40px' }}
+                style={{ width: 'auto', height: '320px', maxHeight: '500px',}}
+                className='lg:hover:-translate-y-2 transition-transform duration-700 border-4 border-[#F75922] rounded-[40px] lg:hover:border-[#b927cc]'
               />
             </a>
         </div>
 
-        <div className='flex' style={{ gap: '15px'}}>
+        <div className='flex lg:gap-4 gap-2'>
             {/* Primeiro card */}
             <a href="#">
-              <h1 className='text-2xl text-center text-[#F75922] font-bold'>Melhores Games</h1> 
+              <h1 className='text-2xl text-center text-[#F75922] font-bold'>GOAT</h1> 
               <br />
               <Image 
                 src={Thebest} 
                 alt='Thebest'
-                style={{ width: 'auto', height: '360px', maxHeight: '500px', border: '5px solid #F75922', borderRadius: '40px' }}
+                style={{ width: 'auto', height: '320px', maxHeight: '500px',}}
+                className='lg:hover:-translate-y-2 transition-transform duration-700 border-4 border-[#F75922] rounded-[40px] lg:hover:border-[#b927cc]'
               />
             </a>
 
@@ -61,12 +64,13 @@ const Category = () => {
               <Image 
                 src={FPS} 
                 alt='FPS'
-                style={{ width: 'auto', height: '360px', maxHeight: '500px', border: '5px solid #F75922', borderRadius: '40px' }}
+                style={{ width: 'auto', height: '320px', maxHeight: '500px' }}
+                className='lg:hover:-translate-y-2 transition-transform duration-700 border-4 border-[#F75922] rounded-[40px] lg:hover:border-[#b927cc]'
               />
             </a>
         </div>
 
-        <div className='flex' style={{ gap: '15px'}}>
+        <div className='flex lg:gap-4 gap-2'>
             {/* Primeiro card */}
             <a href="#">
               <h1 className='text-2xl text-center text-[#F75922] font-bold'>GTA 6</h1> 
@@ -74,18 +78,20 @@ const Category = () => {
               <Image 
                 src={GTAVice} 
                 alt='GTAVice'
-                style={{ width: 'auto', height: '360px', maxHeight: '500px', border: '5px solid #F75922', borderRadius: '40px' }}
+                style={{ width: 'auto', height: '320px', maxHeight: '500px' }}
+                className='lg:hover:-translate-y-2 transition-transform duration-700 border-4 border-[#F75922] rounded-[40px] lg:hover:border-[#b927cc]'
               />
             </a>
 
             {/* Segundo card */}
             <a href="#">
-              <h1 className='text-2xl text-center text-[#F75922] font-bold'>Plataformas</h1> 
+              <h1 className='text-2xl text-center text-[#F75922] font-bold '>Plataformas</h1> 
               <br />
               <Image 
                 src={GTAVice} 
                 alt='Plataformas'
-                style={{ width: 'auto', height: '360px', maxHeight: '500px', border: '5px solid #F75922', borderRadius: '40px' }}
+                style={{ width: 'auto', height: '320px', maxHeight: '500px' }}
+                className='lg:hover:-translate-y-2 transition-transform duration-700 border-4 border-[#F75922] rounded-[40px] lg:hover:border-[#b927cc]'
               />
             </a>
         </div>     
