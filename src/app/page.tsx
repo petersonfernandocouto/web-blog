@@ -100,7 +100,7 @@ export default function Home() {
         <HomePage />
       </div>
 
-      <div className='mt-7'>
+      <div className='mt-7 mb-10'>
         
         <Category /> 
         

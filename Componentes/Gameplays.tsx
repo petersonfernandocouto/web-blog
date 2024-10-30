@@ -35,10 +35,10 @@ const Gameplays = () => {
 
         <h1 className='text-[28px] font-bold'>Gameplays todos os dias</h1>
           
-        <h1 className='text-[28px] font-bold py-8'>Visite nosso canal em</h1>  
+        <h1 className='text-[28px] font-bold py-8'>Visite nosso canal</h1>  
 
         <a href='https://www.tiktok.com/@gamescutzbr' target='_blank' rel='noopener noreferrer'>
-          <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center mb-7 font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29]'>
+          <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center mb-7 font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
             Acessar o Canal
           </button>
         </a>
