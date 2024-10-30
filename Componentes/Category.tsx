@@ -5,6 +5,7 @@ import Consoles from '../IMG/console.jpg'
 import Thebest from '../IMG/Melhores Games.png'
 import FPS from "../IMG/cs2.png"
 import GTAVice from '../IMG/Capa-GTVI.png'
+import Crash from '../IMG/Crash.png'
 
 const Category = () => {
   return (
@@ -18,7 +19,7 @@ const Category = () => {
         
       >
 
-        <div className='flex lg:gap-4 gap-2' >
+        <div className='flex gap-4 mb-12 lg:mb-0' >
             {/* Primeiro card */}
             <a href="#">
               <h1 className='text-2xl text-center text-[#F75922] font-bold '>Mario</h1> 
@@ -44,7 +45,7 @@ const Category = () => {
             </a>
         </div>
 
-        <div className='flex lg:gap-4 gap-2'>
+        <div className='flex gap-4  mb-12 lg:mb-0'>
             {/* Primeiro card */}
             <a href="#">
               <h1 className='text-2xl text-center text-[#F75922] font-bold'>GOAT</h1> 
@@ -70,7 +71,7 @@ const Category = () => {
             </a>
         </div>
 
-        <div className='flex lg:gap-4 gap-2'>
+        <div className='flex gap-4  mb-12 lg:mb-0'>
             {/* Primeiro card */}
             <a href="#">
               <h1 className='text-2xl text-center text-[#F75922] font-bold'>GTA 6</h1> 
@@ -88,7 +89,7 @@ const Category = () => {
               <h1 className='text-2xl text-center text-[#F75922] font-bold '>Plataformas</h1> 
               <br />
               <Image 
-                src={GTAVice} 
+                src={Crash} 
                 alt='Plataformas'
                 style={{ width: 'auto', height: '320px', maxHeight: '500px' }}
                 className='lg:hover:-translate-y-2 transition-transform duration-700 border-4 border-[#F75922] rounded-[40px] lg:hover:border-[#b927cc]'
