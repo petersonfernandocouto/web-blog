@@ -19,7 +19,7 @@ const Gameplays = () => {
       
       
       {/* Div esquerda com a imagem, ocupando 30% em telas lg */}
-      <div className='bg-[#F75922] lg:w-[30%] w-[80%] flex flex-col justify-center items-center rounded-[20px] mt-14 mx-auto'>
+      <div className='bg-[#F75922] lg:w-[30%] w-[80%] flex flex-col justify-center items-center rounded-[20px] mt-14 lg:mb-14 mx-auto'>
         <Image 
           src={IMG}
           alt='IMG'
@@ -48,7 +48,7 @@ const Gameplays = () => {
       {/* Div direita com o texto, ocupando 70% em telas lg */}
       <div className='lg:w-[60%] p-4 flex flex-col justify-center items-center gap-8 lg:gap-10'>
         
-        <div className='flex gap-28 lg:gap-56'>
+        <div className='flex gap-28 lg:gap-56 mt-8 lg:mt-0'>
               <div> 
                     <div className='bg-[#F75922] p-4 rounded-full'>
                     <BsEmojiGrin className='text-white text-[45px]' />
