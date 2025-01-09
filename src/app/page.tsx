@@ -5,6 +5,8 @@ import HomePage from "../../Componentes/HomePage";
 import Category from "../../Componentes/Category";
 import Gameplays from "../../Componentes/Gameplays";
 //import Store from "../../Componentes/Store";
+import Store from "../../Componentes/Store";
+import Footer from "../../Componentes/Footer";
 
 import { MenuIcon } from "lucide-react";
 import { useState } from "react";
@@ -112,17 +114,20 @@ export default function Home() {
          <Gameplays />
 
       </div>   
+     
 
-     {/*
-
-        <div className='mb-10'>
+      <div className='mb-10'>
 
          <Store />
 
-        </div>  
+      </div>  
      
+     <div>
+
+      <Footer />
+      
+     </div>
      
-     */}  
 
     </>
   );
