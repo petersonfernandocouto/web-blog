@@ -14,11 +14,11 @@ const Store = () => {
     
           <div className='flex flex-col lg:flex-row justify-center items-center mt-5 pt-5 lg:gap-[150px] 2xl:gap-[250px]'>
 
-              <div className='lg:mb-36 mb-8'>
+              <div className='lg:mb-36 mb-8 mx-5 lg:mx-0'>
 
                       
 
-                <div className='py-3 lg:mt-8'>
+                <div className='py-3 lg:mt-8 '>
 
                       <div className='flex gap-3'>
 
