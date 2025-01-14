@@ -14,6 +14,8 @@ const Form = () => {
     const { id, value } = O id é responsável por identificar os campos do formData, como name, game, etc. O value é responsável por armazenar o que o usuário digitou no formulário.
 
     e.target = Neste caso, podemos afirmar que o 'e.target' representa o input(formulario) que está sendo alterado pelo usuário.
+
+    ...prevState é o operador spread. Ele serve para copiar todos os valores existentes do estado anterior (antes da atualização). Ele garante que os outros campos do formulário que não foram alterados (como name, game ou message) não sejam perdidos e sejam mantidos no estado.
     
     */}
 
@@ -29,7 +31,7 @@ const Form = () => {
     e.preventDefault();
     const { name, game, message } = formData;
     const whatsappURL = `https://api.whatsapp.com/send/?phone=5519991955915&text=${encodeURIComponent(
-      `Olá Peterson! \Nome: ${name}\nJogo: ${game}\nMensagem: ${message}`
+      `Olá Peterson!\nNome: ${name}\nJogo: ${game}\nMensagem: ${message}`
     )}&type=phone_number&app_absent=0`;
 
     window.location.href = whatsappURL;
