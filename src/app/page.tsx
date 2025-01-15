@@ -6,6 +6,7 @@ import Category from "../../Componentes/Category";
 import Gameplays from "../../Componentes/Gameplays";
 //import Store from "../../Componentes/Store";
 import Store from "../../Componentes/Store";
+import JogoEPreco from "../../Componentes/JogoEPreco";
 import Footer from "../../Componentes/Footer";
 
 import { MenuIcon } from "lucide-react";
@@ -101,6 +102,12 @@ export default function Home() {
       
       <div className=" mt-0 pt-0">
         <HomePage />
+      </div>
+
+      <div className='mb-10'>
+
+          <JogoEPreco />
+
       </div>
 
       <div className='mt-7 mb-10'>
