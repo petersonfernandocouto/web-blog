@@ -157,9 +157,10 @@ const JogoEPreco = () => {
             </div>
 
             <nav className='flex justify-center items-center'>
+
                 <Link
                     className="bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center mb-7 font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]"
-                    href="/"
+                    href="/Vendas"
                     >
                     Ver Mais
                 </Link>
