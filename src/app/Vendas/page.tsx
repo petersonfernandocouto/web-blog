@@ -5,8 +5,15 @@ import Jogos from '../../../ComponentesDeJogos/Jogos';
 //import Footer from '../../../Componentes/Footer';
 
 import { MenuIcon } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoGameControllerOutline } from "react-icons/io5";
+
+import Store from '../../../Componentes/Store';
+import Footer from '../../../Componentes/Footer';
+
+import Loader from '../../../Componentes/Loader';
+import ScrollToTop from '../../../Componentes/ScrollToTop';
+
 
 const Page = () => {
 
@@ -23,6 +30,21 @@ const Page = () => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const [isLoading, setIsLoading] = useState(true);
+  
+          useEffect(() => {
+            // Aqui estou simulando um atraso no carregamento para exibir o loader
+            const timer = setTimeout(() => {
+              setIsLoading(false);
+            }, 2000); // tempo de 2 segundos de espera
+  
+            return () => clearTimeout(timer);
+          }, []);
+  
+          if (isLoading) {
+            return <Loader />;
+          }
 
   return (
 
@@ -103,19 +125,28 @@ const Page = () => {
 
 
             </div>
+
+            <div className='mt-10'>
+
+
+                  <Store />
+
+
+            </div>
+
             
-            <div>
+            <div className='mt-10'>
 
 
             
 
-                    {/*<Footer /> */}
+                    <Footer /> 
 
             
 
             </div>
 
-
+            <ScrollToTop />    
 
     </div>
   )
