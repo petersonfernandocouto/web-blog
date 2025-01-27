@@ -10,10 +10,14 @@ import JogoEPreco from "../../Componentes/JogoEPreco";
 import Footer from "../../Componentes/Footer";
 
 import { MenuIcon } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoGameControllerOutline } from "react-icons/io5";
 
+import Loader from "../../Componentes/Loader";
+import ScrollToTop from "../../Componentes/ScrollToTop";
+
 export default function Home() {
+
 
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
@@ -28,6 +32,23 @@ export default function Home() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const [isLoading, setIsLoading] = useState(true);
+
+        useEffect(() => {
+          // Aqui estou simulando um atraso no carregamento para exibir o loader
+          const timer = setTimeout(() => {
+            setIsLoading(false);
+          }, 2000); // tempo de 2 segundos de espera
+
+          return () => clearTimeout(timer);
+        }, []);
+
+        if (isLoading) {
+          return <Loader />;
+        }
+
+
 
   return (
     <>
@@ -81,10 +102,10 @@ export default function Home() {
 
             <a
               className="hover:text-[#b927cc] transition-all duration-500"
-              href="/"
+              href="/Vendas"
               onClick={() => closeMenuOnClick("#services")}
             >
-              Top Jogos
+              Loja De Jogos
             </a>
             <a
               className="hover:text-[#b927cc] transition-all duration-500"
@@ -135,6 +156,7 @@ export default function Home() {
       
      </div>
      
+     <ScrollToTop />
 
     </>
   );
