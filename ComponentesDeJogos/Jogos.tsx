@@ -35,8 +35,8 @@ const Jogos = () => {
         <Image
                   src={Banner}
                   alt={`error`}
-                  style={{ width: '100%', height: 'auto', maxHeight: '500px' }}
-                  className={`w-full h-auto max-h-[500px] object-cover transition-opacity duration-500 ease-in-out`}
+                  style={{ width: '100%', }}
+                  className={`w-full h-[200px] lg:h-auto max-h-[500px] `}
                 />
 
 
@@ -44,21 +44,21 @@ const Jogos = () => {
 
         <div className='lg:flex justify-center mx-6 lg:mx-0 items-center  lg:gap-10 lg:mt-10'>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
                             src={RDR2V}
                             alt='IMG'
-                            style={{ width: 'auto', height: '250px', maxHeight: '500px' }}
-                            className='mb-7 rounded-tl-[40px] rounded-tr-[40px] '
+                            style={{  width: 'auto', height: '250px', maxHeight: '500px' }}
+                            className=' mb-7 rounded-tl-[40px]  rounded-tr-[40px] '
                     /> 
                     <p className='lg:text-[22px] font-bold pl-2'>Red Dead 2</p>
                     <p className='lg:text-[17px] font-bold pl-2'><span className='lg:text-[14px]'>A partir</span> R$: 35,00</p>
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -78,7 +78,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -89,7 +89,7 @@ const Jogos = () => {
 
             </div>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -99,11 +99,11 @@ const Jogos = () => {
                             className='mb-7 rounded-tl-[40px] rounded-tr-[40px] '
                     /> 
                     <p className='lg:text-[22px] font-bold pl-2'>Dark Souls 3</p>
-                    <p className='lg:text-[17px] font-bold pl-2'><span className='lg:text-[14px]'>A partir</span> R$: 35,00</p>
+                    <p className='lg:text-[17px] font-bold pl-2'><span className='lg:text-[14px]'>A partir</span> R$: 30,00</p>
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -123,7 +123,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -140,7 +140,7 @@ const Jogos = () => {
 
             <div className='lg:flex justify-center mx-6 lg:mx-0 items-center  lg:gap-10 lg:mt-10'>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -154,7 +154,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -174,7 +174,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -185,7 +185,7 @@ const Jogos = () => {
 
             </div>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -195,11 +195,11 @@ const Jogos = () => {
                             className='mb-7 rounded-tl-[40px] rounded-tr-[40px] '
                     /> 
                     <p className='lg:text-[22px] font-bold pl-2'>UFC 5</p>
-                    <p className='lg:text-[17px] font-bold pl-2'><span className='lg:text-[14px]'>A partir</span> R$: 35,00</p>
+                    <p className='lg:text-[17px] font-bold pl-2'><span className='lg:text-[14px]'>A partir</span> R$: 30,00</p>
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -219,7 +219,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -236,7 +236,7 @@ const Jogos = () => {
 
             <div className='lg:flex justify-center mx-6 lg:mx-0 items-center  lg:gap-10 lg:mt-10'>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -250,7 +250,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -270,7 +270,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -281,7 +281,7 @@ const Jogos = () => {
 
             </div>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -295,7 +295,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -311,11 +311,11 @@ const Jogos = () => {
                             className='mb-7 rounded-tl-[40px] rounded-tr-[40px] '
                     /> 
                     <p className='lg:text-[22px] font-bold pl-2'>Outlast 2</p>
-                    <p className='lg:text-[17px] font-bold pl-2'><span className='lg:text-[14px]'>A partir</span> R$: 30,00</p>
+                    <p className='lg:text-[17px] font-bold pl-2'><span className='lg:text-[14px]'>A partir</span> R$: 25,00</p>
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -339,7 +339,7 @@ const Jogos = () => {
 
         <div className='lg:flex justify-center mx-6 lg:mx-0 items-center  lg:gap-10 lg:mt-10'>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -353,7 +353,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -373,7 +373,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -384,7 +384,7 @@ const Jogos = () => {
 
             </div>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -398,7 +398,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -418,7 +418,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -437,7 +437,7 @@ const Jogos = () => {
 
         <div className='lg:flex justify-center mx-6 lg:mx-0 items-center  lg:gap-10 lg:mt-10'>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -451,7 +451,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -471,7 +471,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -482,7 +482,7 @@ const Jogos = () => {
 
             </div>
 
-            <div className='flex gap-4 mt-10 lg:mt-0 lg:gap-10'>
+            <div className='flex gap-3 mt-10 lg:mt-0 lg:gap-10'>
 
                 <div className='flex flex-col bg-[#000E29] border-[4px] border-[#000E29] rounded-tl-[40px] rounded-tr-[40px]'>
                     <Image 
@@ -496,7 +496,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox one/ Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -516,7 +516,7 @@ const Jogos = () => {
                     <p className='lg:text-[17px] font-bold pl-2'>Xbox Series S/X</p>
 
                     <div className='flex justify-center items-center mt-5'>
-                        <a href='#' target='_blank' rel='noopener noreferrer'>
+                        <a href='#Store' rel='noopener noreferrer'>
                                 <button className='bg-[#00143D] text-white rounded-[15px] px-6 py-3 text-center  font-bold lg:hover:-translate-y-2 transition-transform duration-700 lg:hover:bg-[#000E29] lg:hover:text-[#F75922]'>
                                     Comprar
                                 </button>
@@ -531,6 +531,8 @@ const Jogos = () => {
 
 
 {/*Linha 6 */}
+
+            
         
       
     </div>

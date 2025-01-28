@@ -126,7 +126,7 @@ const Page = () => {
 
             </div>
 
-            <div className='mt-10'>
+            <div id='Store' className='mt-10'>
 
 
                   <Store />

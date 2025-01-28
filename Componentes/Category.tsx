@@ -2,7 +2,7 @@ import React from 'react';
 import Mario from '../IMG/Mario.jpg';
 import Image from 'next/image';
 import Consoles from '../IMG/console.jpg'
-import Thebest from '../IMG/Melhores Games.png'
+import Thebest from '../IMG/LojaGamer.png'
 import FPS from "../IMG/cs2.png"
 import GTAVice from '../IMG/Capa-GTVI.png'
 import Crash from '../IMG/Crash.png'
@@ -21,8 +21,8 @@ const Category = () => {
 
         <div className='flex gap-4 mb-12 lg:mb-0' >
             {/* Primeiro card */}
-            <a href="#">
-              <h1 className='text-2xl text-center text-[#F75922] font-bold '>Mario</h1> 
+            <a href="/Mario">
+              <h1 className='text-2xl text-center text-[#F75922] font-bold'>Mario</h1> 
               <br />
               <Image 
                 src={Mario} 
@@ -47,8 +47,8 @@ const Category = () => {
 
         <div className='flex gap-4  mb-12 lg:mb-0'>
             {/* Primeiro card */}
-            <a href="#">
-              <h1 className='text-2xl text-center text-[#F75922] font-bold'>GOAT</h1> 
+            <a href="/Vendas">
+              <h1 className='text-2xl text-center text-[#F75922] font-bold'>Loja</h1> 
               <br />
               <Image 
                 src={Thebest} 
