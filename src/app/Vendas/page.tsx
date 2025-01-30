@@ -51,7 +51,7 @@ const Page = () => {
 
     <div>
 
-                <div className=" mt-0 pt-0">
+              <div className=" mt-0 pt-0">
 
                 {/*Menu abaixo */}
                 <div className="flex fixed items-center z-40 bg-[#000E29] w-screen lg:hidden px-6 py-6 shadow-lg ">
@@ -117,7 +117,7 @@ const Page = () => {
 
                 </header>
 
-                </div>
+              </div>
       
             <div>
 
