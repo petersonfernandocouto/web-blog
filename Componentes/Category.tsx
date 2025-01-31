@@ -33,7 +33,7 @@ const Category = () => {
             </a>
 
             {/* Segundo card */}
-            <a href="#">
+            <a href="/Consoles">
               <h1 className='text-2xl text-center text-[#F75922] font-bold'>Consoles</h1> 
               <br />
               <Image 
