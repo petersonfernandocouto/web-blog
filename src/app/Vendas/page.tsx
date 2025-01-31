@@ -93,7 +93,7 @@ const Page = () => {
 
                 <a
                     className="hover:text-[#b927cc] transition-all duration-500"
-                    href="/"
+                    href="/Consoles"
                     onClick={() => closeMenuOnClick("#about")}
                 >
                     Consoles
@@ -101,10 +101,10 @@ const Page = () => {
 
                 <a
                     className="hover:text-[#b927cc] transition-all duration-500"
-                    href="/"
+                    href="/Vendas"
                     onClick={() => closeMenuOnClick("#services")}
                 >
-                    Top Jogos
+                    Loja De Jogos
                 </a>
                 <a
                     className="hover:text-[#b927cc] transition-all duration-500"

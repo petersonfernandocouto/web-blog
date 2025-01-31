@@ -94,7 +94,7 @@ export default function Home() {
 
             <a
               className="hover:text-[#b927cc] transition-all duration-500"
-              href="/"
+              href="/Consoles"
               onClick={() => closeMenuOnClick("#about")}
             >
               Consoles
