@@ -7,6 +7,7 @@ import { IoGameControllerOutline } from "react-icons/io5";
 import { useState } from "react";
 
 import ConsolesGames from '../../../ComponentesDeJogos/Consolecss/ConsolesGames';
+import Footer from '../../../Componentes/Footer';
 
 
 function Page() {
@@ -104,6 +105,12 @@ function Page() {
                 <ConsolesGames />
 
 
+        </div>
+
+        <div>
+
+            <Footer />
+      
         </div>
 
     </div>

@@ -14,9 +14,15 @@ import { useState, useEffect } from "react";
 import { IoGameControllerOutline } from "react-icons/io5";
 
 import Loader from "../../Componentes/Loader";
+import { useInView } from "react-intersection-observer";
 import ScrollToTop from "../../Componentes/ScrollToTop";
 
 export default function Home() {
+
+  const { ref: CategoryRef, inView: CategoryInView } = useInView({triggerOnce: true,});
+  const { ref: GameplaysRef, inView: GameplaysInView } = useInView({triggerOnce: true,});
+  const { ref: StoreRef, inView: StoreInView } = useInView({triggerOnce: true,});
+  const { ref: FooterRef, inView: FooterInView } = useInView({triggerOnce: true,});
 
 
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -131,26 +137,47 @@ export default function Home() {
 
       </div>
 
-      <div className='mt-7 mb-10'>
+      <div 
+      id="PremiosSection"
+      ref={CategoryRef}
+      className={`mt-7 mb-10 transition-all duration-1000 ease-out ${
+          CategoryInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+        }`}>
         
         <Category /> 
         
       </div>    
          
-      <div className='mb-10'>
+      <div 
+      id="PremiosSection"
+      ref={GameplaysRef}
+      className={`mb-10 transition-all duration-1000 ease-out ${
+          GameplaysInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+        }`}>
 
          <Gameplays />
 
       </div>   
      
 
-      <div className='mb-10'>
+      <div 
+      id="PremiosSection"
+      ref={StoreRef}
+      className={`mb-10 transition-all duration-1000 ease-out ${
+          StoreInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+        }`}>
 
          <Store />
 
       </div>  
      
-     <div>
+     <div
+     id="PremiosSection"
+     ref={FooterRef}
+     className={`transition-all duration-1000 ease-out ${
+      FooterInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+    }`}
+     >
 
       <Footer />
       

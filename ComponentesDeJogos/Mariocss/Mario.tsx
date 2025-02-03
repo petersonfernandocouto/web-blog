@@ -81,7 +81,7 @@ function Mario() {
                         className='rounded-3xl w-[450px] lg:w-[360px] lg:h-[250px]'
                     />
 
-                    <h1 className='text-xl font-bold my-4'>Super Mario Word</h1>    
+                    <h1 className='text-xl font-bold my-4'>Super Mario Odyssey</h1>    
 
                     <p className='text-[17px] font-bold lg:text-[15px] text-center lg:w-[80%]'>Super Mario Odyssey foi lançado em 27 de outubro de 2017 para o Nintendo Switch. O jogo trouxe mundos vastos e exploráveis, mecânicas inovadoras com Cappy e uma jogabilidade criativa, tornando-se um dos títulos mais aclamados da série.</p>
 

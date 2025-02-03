@@ -56,7 +56,7 @@ const JogoEPreco = () => {
                                         <div className="flex flex-col items-start px-4 pt-5 lg:px-0">
                                             <h3 className="text-xl font-bold">Hogwarts Legacy</h3>
                                             <p className="text-[17px] lg:text-lg">
-                                            Apartir de R$:25,00 
+                                            A partir de R$:25,00 
                                             </p>
 
                                             <p className="text-[15px] lg:text-lg pt-3">Um jogo de ação e RPG ambientado no universo mágico de Harry Potter, mas situado no final do século XIX, muito antes dos eventos dos livros e filmes. Nele, você assume o papel de um aluno recém-chegado a Hogwarts com habilidades mágicas únicas, permitindo que você explore a escola, participe de aulas, faça amigos e enfrente forças das trevas.</p>
@@ -83,7 +83,7 @@ const JogoEPreco = () => {
                                     <div className="flex flex-col items-start px-4 pt-5 lg:px-0">
                                             <h3 className="text-xl font-bold">EA Sports FC 25</h3>
                                                 <p className="text-[17px] lg:text-lg">
-                                                Apartir de R$:35,00 
+                                                A partir de R$:35,00 
                                                 </p>
 
                                             <p className="text-[15px] lg:text-lg pt-3">O jogo traz uma experiência realista de futebol, com gráficos aprimorados, jogabilidade refinada e atualizações nas mecânicas de passe, drible e finalização. Os jogadores podem controlar seus times favoritos em ligas e torneios ao redor do mundo, desfrutar de modos como Carreira, Ultimate Team e Pro Clubs.</p>
@@ -113,7 +113,7 @@ const JogoEPreco = () => {
 
                                  <h3 className="text-xl font-bold">Red Dead Redemption 2</h3>
                                      <p className="text-[17px] lg:text-lg">
-                                            Apartir de R$:35,00 
+                                            A partir de R$:35,00 
                                      </p>
 
                                     <p className="text-[15px] lg:text-lg pt-3">Você assume o papel de Arthur Morgan, um fora-da-lei membro da gangue Van der Linde, enquanto enfrenta forças da lei, rivais de gangue e os desafios de sobreviver em um mundo em mudança. Com um vasto mundo aberto, o jogo oferece exploração detalhada, missões envolventes, interações profundas com personagens e uma narrativa emocional.</p>
@@ -141,7 +141,7 @@ const JogoEPreco = () => {
 
                                     <h3 className="text-xl font-bold">Death Stranding</h3>
                                         <p className="text-[17px] lg:text-lg">
-                                            Apartir de R$:25,00 
+                                            A partir de R$:25,00 
                                         </p>
 
                                     <p className="text-[15px] lg:text-lg pt-3">Sam Porter Bridges, um entregador encarregado de reconectar cidades isoladas em um mundo devastado por eventos sobrenaturais. O jogo combina exploração, entrega de cargas, construção de infraestruturas e combate contra entidades misteriosas, tudo enquanto você tenta restaurar a conexão entre os remanescentes da humanidade. Com uma narrativa única, visual deslumbrante e jogabilidade inovadora.</p>
